@@ -310,6 +310,20 @@
 	display: none;
 }
 
+.product-container {
+	padding-top: 10px;
+
+}
+
+.product {
+	margin-top: -30px;
+}
+
+.montagem {
+	margin-left: -75%;
+	width: 150%;
+}
+
 .qualidade_lista li {
 	text-align: center;
 	padding: 0 15px; /*aqui tira o jogo de cintura, espaço, e alinha*/
@@ -349,6 +363,12 @@ font-size: 250%;
 	margin-right: -2px;
   }
 
+/**/
+
+.portfolio {
+	margin-top: -30px;
+}
+
 
 
 .contato1 {
@@ -357,4 +377,28 @@ font-size: 250%;
 }
 
 
+/*Contato*/
+
+.titulo_contato {
+	margin-top: 14px;
+	font-size: 240%;
+}
+
+.contato1 h2{
+	margin-top: 10px;
+}
+
+.opcoes ul {
+	margin-left: 10px;
+	margin-top: -20px;
+}
+
+.opcoes {
+	height: 50%;
+}
+
+
+#apenas {
+	margin-bottom: 20px;
+}
 /*diferente*/
