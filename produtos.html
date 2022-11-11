@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Victor Doceria</title>
+    <link rel="shortcut icon" href="midias/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+        @font-face {
+            font-family: 'North';
+            src: url('midias/north_carossela/North\ Carossela.otf') format('opentype');
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&display=swap');
+    </style>
+    <script src="js/libs/modernizr.custom.45655.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container"><!--Logo no cabeçalho, com link pra home-->
+            <!--Como nao tem tanto contexto, podemos usar uma div,-->
+            <a href="index.html" class="grid-4">
+                <img src="midias/logo_branca.png" alt="joao">
+            </a>
+            <nav class="grid-12 header_menu"><!--Bom usar anderlaine para espaço    -->
+                <ul>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="introducao-interna interna_sobre"> <!--Uma sessão sendo iniciada
+        Também no CSS como introdução-->
+            <div class="container">
+                <h1>Produtos</h1>
+                <p>Veja nossas principais delícias.</p>    
+            </div>
+    </section>
+    
+    <!--MINICASEIROS-->
+    <section class="produto_item container animar-interno">
+        <div class="grid-11">
+            <img src="midias/montagem6.jpg" class="montagem" alt="Bikcraft Passeio">
+            <h2>MINI-CASEIRINHOS</h2>
+        </div>
+        <div class="grid-5 produto_icone"><img src="midias/boleta.png" alt="Icone Passeio"></div>
+    </section>
+
+        <!--MINICASEIROS OPÇOES-->
+    <section class="product">
+        <button class="pre-btn"><img src="images/arrow4.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow3.png" alt=""></button>
+
+
+        <!--Kinder-->
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag"></span>
+                    <img src="midias/foto1.jpg" class="product-thumb" alt="">
+                    <a href="https://api.whatsapp.com/message/YAELJOU3SJJGO1?autoload=1&app_absent=0" target="_blank"><button class="card-btn">Fazer Pedido</button></a>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand bold">Kinder Bueno 🎂</h2>
+                    <p class="product-short-description">Creme de leite em pó e brigadeiro. </p>
+                    <span class="price">R$ 15</span>
+                </div>
+            </div>
+
+            <!--Morango-->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">Mais Comprado</span>
+                    <img src="midias/foto3.jpg" class="product-thumb" alt="">
+                    <a href="https://api.whatsapp.com/message/YAELJOU3SJJGO1?autoload=1&app_absent=0" target="_blank"><button class="card-btn">Fazer Pedido</button></a>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">MINI DE MORANGO 🍓</h2>
+                    <p class="product-short-description">Bolo de Chocolate + saborosa camada de Brigadeiro</p>
+                    <span class="price">R$ 15</span>
+                </div>
+            </div>
+
+            <!--Maracuja-->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag"></span>
+                    <img src="midias/foto2.jpg" class="product-thumb" alt="">
+                    <a href="https://api.whatsapp.com/message/YAELJOU3SJJGO1?autoload=1&app_absent=0" target="_blank"><button class="card-btn">Fazer Pedido</button></a>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">MINI DE MARACUJÁ 🍋</h2>
+                    <p class="product-short-description">Bolo de chocolate + Deliciosa Cobertura de Maracujá</p>
+                    <span class="price">R$ 15</span>
+                </div>
+            </div>
+
+            <!--Diversos-->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">Mais Comprado</span>
+                    <img src="midias/foto_diversos.jpg" class="product-thumb" alt="">
+                    <a href="https://api.whatsapp.com/message/YAELJOU3SJJGO1?autoload=1&app_absent=0" target="_blank"><button class="card-btn">Fazer Pedido</button></a>
+                
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Os dois Chocolates 🍫</h2>
+                    <p class="product-short-description">Cobertura de chocolate branco e calda de chocolate</p>
+                    <span class="price">R$ 15</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">Mais Comprado</span>
+                    <img src="midias/fundoo.jpg" class="product-thumb" alt="">
+                    <a href="https://api.whatsapp.com/message/YAELJOU3SJJGO1?autoload=1&app_absent=0" target="_blank"><button class="card-btn">Fazer Pedido</button></a>
+                
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Diversas Opçoes</h2>
+                    <p class="product-short-description">Temos diversas opções, veja em nosso cardapio</p>
+                    <span class="price">R$ 15</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="produto_item container animar-interno">
+        <div class="grid-11">
+            <img src="midias/montagem.jpg" class="montagem" alt="Bikcraft Passeio">
+            <h2>DELICIAS NO POTE</h2>
+        </div>
+        <div class="grid-5 produto_icone"><img src="midias/boleta.png" alt="Icone Passeio"></div>
+        
+    </section>
+
+    <section class="product">
+        <button class="pre-btn"><img src="images/arrow3.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow4.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag"></span>
+                    <img src="midias/abacaxi.jpg" class="product-thumb" alt="">
+                    <a href="https://api.whatsapp.com/message/YAELJOU3SJJGO1?autoload=1&app_absent=0" target="_blank"><button class="card-btn">Fazer Pedido</button></a>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand bold">Sabor Abacaxi 🍍</h2>
+                    <p class="product-short-description">Brigadeiro em pó + Abacaxi</p>
+                    <span class="price">R$ 12</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">Mais Comprado</span>
+                    <img src="midias/foto_maracuja.jpg" class="product-thumb" alt="">
+                    <a href="https://api.whatsapp.com/message/YAELJOU3SJJGO1?autoload=1&app_absent=0" target="_blank"><button class="card-btn">Fazer Pedido</button></a>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">SABOR MARACUJÁ 🍋</h2>
+                    <p class="product-short-description">Maracujá com calda natural</p>
+                    <span class="price">R$ 12</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag"></span>
+                    <img src="midias/foto_morango.jpg" class="product-thumb" alt="">
+                    <a href="https://api.whatsapp.com/message/YAELJOU3SJJGO1?autoload=1&app_absent=0" target="_blank"><button class="card-btn">Fazer Pedido</button></a>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Sabor Morango 🍓</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">R$ 12</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">Mais Comprado</span>
+                    <img src="midias/uva.jpeg" class="product-thumb" alt="">
+                    <a href="https://api.whatsapp.com/message/YAELJOU3SJJGO1?autoload=1&app_absent=0" target="_blank"><button class="card-btn">Fazer Pedido</button></a>
+                
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Sabor Uva 🍇</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">R$ 12</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">Mais Comprado</span>
+                    <img src="midias/bolos_vermelho.jpg" class="product-thumb" alt="">
+                    <a href="https://api.whatsapp.com/message/YAELJOU3SJJGO1?autoload=1&app_absent=0" target="_blank"><button class="card-btn">Fazer Pedido</button></a>
+                
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Sabor Frutas Vermelhas 🍒</h2>
+                    <p class="product-short-description">Frutas Vermelhas</p>
+                    <span class="price">R$ 12</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="produto_item miniscaseirinho container animar-interno">
+        <div class="grid-11">
+            <img src="midias/montagem2.jpg" class="montagem" id="miniscaseirinho" alt="Bikcraft Passeio">
+            <h2>SUPER-BOLOS</h2>
+        </div>
+        <div class="grid-5 produto_icone"><img src="midias/boleta.png" alt="Icone Passeio"></div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="subti">Portfolio</h2>
+            <ul class="portfolio_lista rslides_portfolio">
+            <li>
+                 <div class="grid-8 foto1"><img src="images/bolas.jpg" alt=""></div>
+                 <div class="grid-8 foto2"><img src="midias/bolo_granulado.jpg" alt=""></div>
+                 <div class="grid-16 foto3"><img src="midias/montagem8.jpg" alt=""></div>
+            </li> <!--Usando as divs em imagem para poder usar o javascript-->
+
+            <li>
+                <div class="grid-8 foto2"><img src="midias/bolo_granulado.jpg" alt=""></div>
+                <div class="grid-8 foto1"><img src="images/bolas.jpg" alt=""></div>
+                 <div class="grid-16 foto3"><img src="midias/montagem8.jpg" alt=""></div>
+           </li>
+        </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copy">
+            <div class="container">
+                <p class="grid-16">João Victor Doceria 2022 - Alguns direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Javascript-->
+    <script src="js/libs/jquery-1.11.2.min.js"></script>
+ 
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(function() {
+          $(".rslides").responsiveSlides();
+        });
+    </script>
+    <!--Javascript-->    
+</body>
+</html>
+
+
+
+
+
+
+
+

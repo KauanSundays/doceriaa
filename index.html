@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Victor Doceria</title>
+    <link rel="shortcut icon" href="midias/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+        @font-face {
+            font-family: 'North';
+            src: url('midias/north_carossela/North\ Carossela.otf') format('opentype');
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&display=swap');
+    </style>
+</head>
+<body>
+    <!--CABEÇALHO-->
+    <header class="header">
+        <div class="container"><!--Logo no cabeçalho, com link pra home-->
+            <!--Como nao tem tanto contexto, podemos usar uma div,-->
+            <a href="index.html" class="grid-4">
+                <img src="midias/logo_branca.png" alt="joao">
+            </a>
+            <nav class="grid-12 header_menu"><!--Bom usar anderlaine para espaço    -->
+                <ul>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="introducao">
+        <div class="container">
+            <h1><b><span class="doces1">Doces</span>, Bolos e Delicias</b></h1>
+            <blockquote class="quote-externo">
+                <p>"Doces feitos com <span class="resp">responsabilidade</span> e <span class="dedi">dedicação</span> para fazer a sua experiencia melhor"</p>
+                <cite>JOÃO VICTOR DOCERIA</cite>
+            </blockquote>
+            <a href="https://api.whatsapp.com/message/YAELJOU3SJJGO1?autoload=1&app_absent=0" class="btn">🍰 Faça um Pedido 🍰</a>
+        </div>
+    </section>
+
+    
+
+        <section class="delicias">
+            <h2>DELÍCIAS</h2>
+            <ul class="delicias_lista">
+                <li class="grid-5 ">
+                    <div class="delicias_icone">
+                        <img src="midias/foto2.jpg" alt="">
+                    </div>
+                    <h3>Mini-Caseirinhos</h3>
+                    <p>Bolo recheado, saboroso e cobertura natural</p>
+                </li>
+
+                <li class="grid-5">
+                    <div class="delicias_icone">
+                        <img src="midias/bolinhas.jpg" alt="">
+                    </div>
+                    <h3>Bolos</h3>
+                    <p>Grande variedade de bolos, veja nosso cardapio.</p>
+                </li>
+
+                <li class="grid-5 foto3">
+                    <div class="delicias_icone">
+                        <img src="midias/foto8.jpg" alt="">
+                    </div>
+                    <h3>Bolo no pote</h3>
+                    <p>Temos os famosos bolo no pote, os mais pedidos.</p>
+                </li>
+            </ul>
+
+
+    </section>
+
+    <section class="qualidade container">
+        <h2 class="subti">Qualidade</h2>
+        <img src="midias/logobranca.png" >
+        <ul class="qualidade_lista">
+            <li class="grid-1-3">
+                <h3>Comprometimento</h3>
+                <p>Temos Total Comprometimento com nossos clientes, sempre atendemos os requisitos</p>
+            </li>
+            <li class="grid-1-3">
+                <h3>Sensações</h3>
+                <p>Focamos nos sabores, temos tecnicas para tocar seu paladar e ter sentimentos que só encontra aqui</p>
+            </li>
+            <li class="grid-1-3">
+                <h3>Materia-Prima</h3>
+                <p>Nós utilizamos os melhores produtos para uma experiencia diferente.</p>
+            </li>
+        </ul>
+        
+    </section>
+
+    <footer class="call">
+        <h2>Veja detalhes em nosso Instagram</h2>
+        <a href="https://www.instagram.com/joaovictordoceria/" target="_blank" class="btn">🍰 Instagram 🍰</a>
+    </footer>
+
+    <div class="copy">
+        <div class="container">
+            <p class="grid-16">João Victor Doceria 2022 - Alguns direitos reservados.</p>
+        </div>
+    </div>
+    
+    <!--Javascript-->
+    <script src="js/libs/jquery-1.11.2.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+    <!--Javascript-->
+</body>
+</html>
