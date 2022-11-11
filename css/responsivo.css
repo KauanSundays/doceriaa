@@ -78,6 +78,49 @@
 	   margin: 14px 0;
 	  }
 
+	.produto_item {
+	  padding-top: 20px;
+	  background: black;
+	  width: 100%;
+	  text-align: center;
+	  align-items: center;
+	  margin: 0 auto;
+	  padding-left:  250px;
+	}
+	
+	.produto_item #miniscaseirinho {
+	  background: var(--cor0);
+	}
+
+	.montagem {
+		margin: 0 auto;
+	}
+	
+
+	.produto_item h2{
+	  color: white;
+	  font-size: 36px;
+	  text-transform: uppercase;
+	  letter-spacing: .1em;
+	  font-weight: bold;
+	  position: relative;
+	  top: -180px;
+	  text-align: center;
+	  text-shadow: var(--cor3) 2px 2px 3px;
+	  font-family: 'Montserrat';
+	  right: 2%;
+	}
+	.produto_icone {
+		display: none;
+	}
+	
+	.produto_icone img{
+	 display: none;
+	}
+	
+	.produto_item {
+		display: inline-block;
+	}
 	
 	}
 @media only screen and (min-width: 1px) and (max-width: 767px) {
@@ -237,10 +280,19 @@
    margin: 14px 0;
   }
 
+.produto_item {
+  padding-top: 20px;
+  background: black;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding-left:  250px;
+  display: inline-block;
+}
 
-.montagem {
-    width: 150%;
-	margin-left: -78%;
+
+.produto_item #miniscaseirinho {
+  background: var(--cor0);
 }
 
 .produto_item h2{

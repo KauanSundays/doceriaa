@@ -204,12 +204,13 @@ body {
 .produto_icone {
 	background: var(--cor3);
 	padding: 5px;
+  
 }
 
 .produto_icone img{
 	margin: 0 auto;
-    width: 267  px;
-    height: 267px;
+  width: 267  px;
+  height: 267px;
 }
 
 .produto_info {
