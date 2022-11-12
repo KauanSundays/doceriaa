@@ -428,12 +428,13 @@ body {
     word-wrap: break-word;
   }
 
-/*FOOOTERR
+
 
   .footer {
     background: var(--cor0);
     text-decoration: none;
     text-align: left;
+    height: 100%;
   }
 
   .footer h3{
@@ -443,11 +444,7 @@ body {
 
   }
 
-  .footer p{
-    max-width: 400px;
-  }
 
-  */
 
   .copy {
     color: rgb (0, 0, 255);
