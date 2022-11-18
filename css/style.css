@@ -232,7 +232,7 @@ body {
 
 }
 
-.delicias_lista li h3 {
+.delicias_lista li h3 { 
     color: var(--cor5);
     text-align: center;
 }

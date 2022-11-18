@@ -282,6 +282,83 @@
   }
 
 
+  /*DELICIAS*/
+  .delicias {
+    padding: 50px 0;
+    width: 100%;
+}
+
+.delicias h2{
+    font-size: 60px;
+    color: var(--cor3);
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-top: -15px;
+    text-align:center;
+
+}
+
+
+
+.delicias ul {
+  margin: 0 5%;
+  display: inline-block;
+}
+
+.delicias_lista li h3 {
+    font-weight: bold;
+    font-size: 90%;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing:  .1em;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: black 1px 1px 2px;
+}
+
+.delicias_lista li p {
+    color: var(--cor5);
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif ; /*Modelo*/
+    letter-spacing:  .1em;
+	font-size: 80%;
+	word-break: break-word;
+}
+
+.delicias_lista li h3 { 
+    color: var(--cor5);
+    text-align: center;
+	font-size: 110%;
+}
+.delicias_icone {
+    background: var(--cor0);
+    padding: 1%;
+    text-align: center;
+	padding-right: -5px;
+}
+
+.delicias img {
+    width: 70%;
+    height: 75%;
+    border: 5px solid;
+    margin-top: 20px;
+    text-align: center;
+    display: block; 
+    margin: 10%;
+	margin-left: 15%;
+}
+
+.delicias_lista {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+
+
+
 /*produtos*/
 .produtos_lista li h3 {
 	font-weight: bold;
@@ -495,7 +572,6 @@ font-size: 250%;
     font-family: 'Montserrat';
     font-weight: bold;
     text-shadow: #5E1F00 1px 1px 2px;
-    word-wrap: break-word;
 	margin: 0 auto;
   }
 }
