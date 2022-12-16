@@ -574,7 +574,45 @@ font-size: 250%;
     text-shadow: #5E1F00 1px 1px 2px;
 	margin: 0 auto;
   }
+
+/*PAGINA PRODUTOS*/
+#minisca {
+	width: 53vh;
+	margin-top: 2vh;
 }
+
+.miniscas {
+	height: 50vh;
+}
+
+.sim {
+	margin-top: -12vh;
+}
+
+.sim2 {
+	margin-top: -18vh;
+}
+
+#miniscaseirinho {
+	width: 59vh;
+}
+
+
+body {
+	background-color: black;
+}
+
+/*Contato*/
+
+.contato1 {
+	height: 30vh;
+}
+
+.opcoes ul li {
+	margin-left: 5vh;
+}
+}
+
 
 
 /*Contato*/

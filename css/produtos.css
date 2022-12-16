@@ -22,6 +22,7 @@ img {
 
 body {
     font-family: 'North', Helvetica, sans-serif;
+    width: 100%;
 }
 
 .btn {
@@ -727,4 +728,9 @@ body {
   font-family: 'Montserrat';
   font-weight: bold;
   text-shadow: #5E1F00 1px 1px 2px;
+}
+
+body {
+  font-family: 'North', Helvetica, sans-serif;
+  width: 100%;
 }
